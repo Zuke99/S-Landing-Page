@@ -17,6 +17,16 @@ export default function Dashboard() {
       case 'finance':
         navigate('/finance');
         break;
+      case 'logistics':
+        //navigate to https://temp-vqsb.onrender.com/
+        window.location.href = 'https://temp-vqsb.onrender.com/';
+        break;
+      case 'inventory':
+        window.location.href = 'https://fl-siva-inventory.onrender.com/';
+        break;
+      case 'human resources':
+        window.location.href = 'https://s-hrms.onrender.com/';
+        break;
       default:
         console.log(`Selected ${dept}`);
     }
